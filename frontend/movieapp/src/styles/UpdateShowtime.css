@@ -1,0 +1,39 @@
+.update-showtime-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-showtime-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .update-showtime-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-showtime-container form input,
+  .update-showtime-container form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .update-showtime-container form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .update-showtime-container form button:hover {
+    background-color: #0056b3;
+  }
+  

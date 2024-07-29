@@ -1,0 +1,38 @@
+.delete-showtime-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .delete-showtime-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .delete-showtime-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .delete-showtime-container form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .delete-showtime-container form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .delete-showtime-container form button:hover {
+    background-color: #c82333;
+  }
+  

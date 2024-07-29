@@ -1,0 +1,73 @@
+/* Showtimes.css */
+
+.showtimes-container {
+  padding: 20px;
+}
+
+.showtimes-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.showtime-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.showtime-content {
+  display: flex;
+  width: 100%;
+}
+
+.showtime-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.showtime-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.showtime-details {
+  flex: 2;
+}
+
+.showtime-details p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 1em;
+}
+
+.showtime-details strong {
+  color: #333;
+}
+
+.view-seats-button-container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.view-seats-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.view-seats-button:hover {
+  background-color: #0056b3;
+}

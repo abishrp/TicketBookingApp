@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .welcome-section {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .explore-button {
+    background-color: #ff5a5f;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #ff3b3f;
+  }
+  

@@ -1,0 +1,45 @@
+.update-movie-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .update-movie-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .update-movie-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-movie-container input,
+  .update-movie-container textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .update-movie-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-movie-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .update-movie-container p {
+    text-align: center;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,53 @@
+.add-movie-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-movie-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-movie-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-movie-container input,
+  .add-movie-container textarea,
+  .add-movie-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-movie-container input[type="text"],
+  .add-movie-container input[type="number"],
+  .add-movie-container textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-movie-container button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+  }
+  
+  .add-movie-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-movie-container p {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,45 @@
+.update-theatre-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-theatre-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .update-theatre-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-theatre-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-theatre-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-theatre-container button:hover {
+    background-color: #138496;
+  }
+  
+  .update-theatre-container p {
+    text-align: center;
+    color: red;
+  }
+  

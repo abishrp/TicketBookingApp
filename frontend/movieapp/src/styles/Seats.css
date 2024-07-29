@@ -1,0 +1,50 @@
+.seats-container {
+    padding: 20px;
+  }
+  
+  .seats-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .seat-item {
+    list-style: none;
+  }
+  
+  .seat-button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .seat-button.available {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .seat-button.booked {
+    background-color: #f44336;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  .seat-button.selected {
+    background-color: #ffeb3b;
+    color: black;
+  }
+  
+  .book-seats-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-seats-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

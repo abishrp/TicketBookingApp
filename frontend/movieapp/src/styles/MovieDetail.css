@@ -1,0 +1,55 @@
+.movie-detail {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    background-color: #ffffff; /* Card background color */
+    max-width: 1200px;
+    margin: auto; /* Center the card horizontally */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  }
+  
+  .movie-poster {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; /* Space between image and details */
+  }
+  
+  .movie-info {
+    flex: 1; /* Allow the details section to take the remaining space */
+    text-align: left;
+  }
+  
+  .movie-info h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+  
+  .movie-info p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .booking-button-container {
+    text-align: center;
+    margin-top: 20px; /* Space above the button */
+    width: 100%; /* Full width to center the button */
+  }
+  
+  .book-now-button {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now-button:hover {
+    background-color: #ff3b3f;
+  }
+  
